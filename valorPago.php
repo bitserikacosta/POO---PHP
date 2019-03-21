@@ -39,7 +39,6 @@ class Pagos
 
     public function __toString()
     {
-        return "La compra de $this->Cliente es de " .
-            $this->Compra . " " . $this->Divisa;
+        return "La compra de $this->Cliente es de " . $this->Compra . " " . $this->Divisa;
     }
 }
